@@ -9,17 +9,22 @@ GET is for **getting** information. It never changes anything.
 ```bash
 curl https://api.github.com/users/octocat
 ```
-### This gets GitHub user "octocat" profile.
+## When you use GET every day
 
-- When you use GET every day
-- What you do	The GET request
-- Go to YouTube	GET youtube.com
-- Search "cats"	GET youtube.com/results?q=cats
-- Check weather	GET weather.com/lahore
-- GET with Parameters
+| What you do | The GET request |
+|-------------|-----------------|
+| Go to YouTube | GET youtube.com |
+| Search "cats" | GET youtube.com/results?q=cats |
+| Check weather | GET weather.com/lahore |
 
 ### POST - Creating Data
-POST is for creating new things.
+## When you use POST every day
+
+| What you do | POST request |
+|-------------|--------------|
+| Sign up for Instagram | POST your info to Instagram |
+| Post a tweet | POST your message to Twitter |
+| Add to cart | POST product to your cart |
 
 ### Example
 ```bash
