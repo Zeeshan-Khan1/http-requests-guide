@@ -27,22 +27,13 @@ curl -X POST https://jsonplaceholder.typicode.com/posts \
   -H "Content-Type: application/json" \
   -d '{"title":"My Post","body":"Hello World"}'
 ```
-This creates a new post.
+## GET vs POST - Quick Comparison
 
-When you use POST every day
-What you do	POST request
-Sign up for Instagram	POST your info to Instagram
-Post a tweet	POST your message to Twitter
-Add to cart	POST product to your cart
-GET vs POST - Quick Comparison
-GET	POST
-Purpose	Read data	Create data
-Changes server?	No	Yes
-Data location	In the URL	In the body (hidden)
-Can bookmark?	Yes	No
-Size limit	~2000 characters	Much larger
-Use for	Search, view pages	Forms, signup, uploads
-Important!
-GET is safe to click multiple times
-
-POST will create duplicate data if clicked twice
+| Feature | GET | POST |
+|---------|-----|------|
+| **Purpose** | Read data | Create data |
+| **Changes server?** | No | Yes |
+| **Data location** | In the URL | In the body (hidden) |
+| **Can bookmark?** | Yes | No |
+| **Size limit** | ~2000 characters | Much larger |
+| **Use for** | Search, view pages | Forms, signup, uploads |
