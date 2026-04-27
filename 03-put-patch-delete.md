@@ -110,4 +110,6 @@ curl -X PATCH https://api.example.com/users/123 \
   -d '{"email":"updated@example.com"}'
 ```
 # Delete user (DELETE)
+```
 curl -X DELETE https://api.example.com/users/12
+```
