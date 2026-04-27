@@ -89,21 +89,25 @@ PATCH /users/123
 ### The data still exists in the database, just hidden from users.
 
 Complete Example - Managing a User
-bash
-# Create a user (POST)
+
+### Create a user (POST)
+```
 curl -X POST https://api.example.com/users \
   -d '{"name":"Zeeshan","email":"z@example.com"}'
-
-# Read user (GET)
+```
+### Read user (GET)
+```
 curl https://api.example.com/users/123
-
-# Update entire user (PUT)
+```
+### Update entire user (PUT)
+```
 curl -X PUT https://api.example.com/users/123 \
   -d '{"name":"Zeeshan Khan","email":"new@example.com","age":23}'
-
-# Update just email (PATCH)
+```
+### Update just email (PATCH)
+```
 curl -X PATCH https://api.example.com/users/123 \
   -d '{"email":"updated@example.com"}'
-
+```
 # Delete user (DELETE)
 curl -X DELETE https://api.example.com/users/12
