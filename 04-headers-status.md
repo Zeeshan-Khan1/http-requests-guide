@@ -67,13 +67,16 @@ Accept: application/json
 ---
 
 ## Status Code Cheat Sheet
-200 = "Yes, here's your data"
-201 = "Yes, I created it"
-400 = "You sent bad data"
-401 = "Login first"
-403 = "You're not allowed"
-404 = "Doesn't exist"
-500 = "Server broke (their fault)"
+
+| Code | Meaning |
+|------|---------|
+| 200 | "Yes, here's your data" |
+| 201 | "Yes, I created it" |
+| 400 | "You sent bad data" |
+| 401 | "Login first" |
+| 403 | "You're not allowed" |
+| 404 | "Doesn't exist" |
+| 500 | "Server broke (their fault)" |
 
 ---
 
